@@ -1,0 +1,307 @@
+.forward-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.forward-container .forward-header {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.forward-container .forward-header h3 {
+    font: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
+    color: #273142;
+}
+
+.forward-container .forward-content {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.forward-container .forward-content .single-forward {
+    margin-right: 30px;
+    margin-bottom: 90px;
+}
+
+.forward-container .forward-content .single-forward .content-img {
+    width: 255px;
+    height: 210px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.forward-container .forward-content .single-forward .content-img .img-forward {
+    width: 200px;
+    margin-left: 20px;
+}
+
+.forward-container .forward-content .single-forward .content-img .forward-mark {
+    margin-left: 20px;
+}
+
+.forward-container .forward-content .single-forward .content-img .img-forward img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.forward-container .forward-content .single-forward .content-img img {
+    display: block;
+    height: auto;
+}
+
+.forward-container .forward-content .single-forward .content-img .overlay-img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    cursor: pointer;
+}
+
+.forward-container .forward-content .single-forward .content-img .overlay-img button {
+    margin-top: 5px;
+    width: 36px;
+    background: #666666;
+    height: 35px;
+    border-radius: 4px;
+    border-color: transparent;
+}
+
+.forward-container .forward-content .single-forward .content-img:hover .overlay-img {
+    opacity: 1.0;
+}
+
+.forward-container .forward-content .single-forward .content-img .overlay-img {
+    display: flex;
+    flex-direction: column;
+    width: 20px;
+    margin-top: 45px;
+}
+
+.forward-container .forward-content .single-forward .info-tovar p {
+    font: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #8D909B;
+}
+
+.forward-container .forward-content .single-forward .info-tovar h5 {
+    font: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #273142;
+}
+
+.forward-container .forward-content .single-forward .info-tovar h4 {
+    font: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #32386B;
+}
+
+.forward-container .forward-content .single-forward .info-tovar .button-forward {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.forward-container .forward-content .single-forward .info-tovar .button-forward .btn1 {
+    width: 140px;
+    font: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background: #32386B;
+    margin-top: 30px;
+    height: 45px;
+    border: none;
+    border-radius: 4px;
+}
+
+.forward-container .forward-content .single-forward .info-tovar .button-forward .btn2 {
+    width: 40px;
+    height: 45px;
+    margin-left: 20px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 4px
+}
+
+@media (min-width: 1919px) and (max-width: 1920px){
+    .forward-container {
+        width: 1440px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .forward-container .forward-header {
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .forward-container .forward-header h3 {
+        font: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 33px;
+        font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
+        color: #273142;
+    }
+    
+    .forward-container .forward-content {
+        margin-top: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 1440px;
+    }
+    
+    .forward-container .forward-content .single-forward {
+        margin-right: 30px;
+        margin-bottom: 90px;
+    }
+    
+    .forward-container .forward-content .single-forward .content-img {
+        width: 255px;
+        height: 210px;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .forward-container .forward-content .single-forward .content-img .img-forward {
+        width: 200px;
+        margin-left: 20px;
+    }
+    
+    .forward-container .forward-content .single-forward .content-img .forward-mark {
+        margin-left: 20px;
+    }
+    
+    .forward-container .forward-content .single-forward .content-img .img-forward img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .forward-container .forward-content .single-forward .content-img img {
+        display: block;
+        height: auto;
+    }
+    
+    .forward-container .forward-content .single-forward .content-img .overlay-img {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        cursor: pointer;
+    }
+    
+    .forward-container .forward-content .single-forward .content-img .overlay-img button {
+        margin-top: 5px;
+        width: 36px;
+        background: #666666;
+        height: 35px;
+        border-radius: 4px;
+        border-color: transparent;
+    }
+    
+    .forward-container .forward-content .single-forward .content-img:hover .overlay-img {
+        opacity: 1.0;
+    }
+    
+    .forward-container .forward-content .single-forward .content-img .overlay-img {
+        display: flex;
+        flex-direction: column;
+        width: 20px;
+        margin-top: 45px;
+    }
+    
+    .forward-container .forward-content .single-forward .info-tovar p {
+        font: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #8D909B;
+    }
+    
+    .forward-container .forward-content .single-forward .info-tovar h5 {
+        font: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #273142;
+    }
+    
+    .forward-container .forward-content .single-forward .info-tovar h4 {
+        font: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #32386B;
+    }
+    
+    .forward-container .forward-content .single-forward .info-tovar .button-forward {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .forward-container .forward-content .single-forward .info-tovar .button-forward .btn1 {
+        width: 140px;
+        font: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 21px;
+        color: #FFFFFF;
+        background: #32386B;
+        margin-top: 30px;
+        height: 45px;
+    }
+    
+    .forward-container .forward-content .single-forward .info-tovar .button-forward .btn2 {
+        width: 40px;
+        height: 45px;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+}
