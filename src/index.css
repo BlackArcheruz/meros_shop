@@ -973,6 +973,64 @@ footer{
   height: 10%;
   width: 100%;
 }
+.otziv-modal{
+  display: flex;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  align-items: center;
+  justify-content: center;
+  font-family: Roboto;
+  font-weight: 400;
+  animation-name: fadein;
+  animation-duration: .3s;
+}
+.otziv-modal-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.otziv-modal-header .otziv-modal-title .all-categ-modal-close button{
+  border-radius: 50%;
+  border: 1px solid #273142;
+}
+.otziv-modal-content{
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 10px;
+  width: 40%;
+}
+.otziv-modal-body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.otziv-modal-body label{
+  display: block;
+  width: 70%;
+  margin: 2% 0;
+  color: #D2D2D2;
+}
+.otziv-modal-body input, .otziv-modal-body textarea{
+  display: block;
+  width: 70%;
+  border: 1px solid #D2D2D2;
+  outline: none;
+  color: #D2D2D2;
+  padding: 10px;
+}
+.otziv-modal-body button{
+  width: 50%;
+  display: block;
+  margin: 2% 0;
+}
+.deliver-img img{
+  width: 100%;
+}
+
 ::-webkit-scrollbar{
   width: 10px;
 }
@@ -991,6 +1049,15 @@ footer{
 @media (min-width: 1919px) and (max-width: 1920px) {
   .search{
     width: 60%;
+  }
+  .product-preview1, .hi-product{
+    margin: 5%;
+  }
+  .world-product-single{
+    margin: 2%;
+  }
+  .first-list{
+    width: 100%;
   }
 }
 @media (min-width: 320px) and (max-width: 480px) {
@@ -1145,6 +1212,158 @@ footer{
   .brands, .recommend-list{
     flex-direction: row;
     flex-wrap: wrap;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .left-ad, .right-ad{
+    display: none;
+  }
+  .recommend-list{
+    flex-wrap: wrap;
+  }
+  .single-popular{
+    padding: 0.5%;
+    margin: 3% 0.5%;
+  }
+  .product-list{
+    width: 100%;
+    padding: 0;
+  }
+  .product-special{
+    width: 100%;
+  }
+  .Quran{
+    width: 185px;
+  }
+  .LastNav ul li a{
+    font-size: 12px;
+  }
+  .logo img{
+    width: 150px;
+  }
+  .catalog-button{
+    padding: 5px 10px;
+  }
+  .catalog-button button{
+    display: flex;
+    flex-direction: row;
+  }
+  .search{
+    height: 30%;
+  }
+  .newbook-single-component{
+    flex-wrap: wrap;
+  }
+  .sub-nav a{
+    font-size: 12px;
+  }
+  .recommend-list1{
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1201px) {
+  .left-ad, .right-ad{
+    display: none;
+  }
+  .recommend-list{
+    flex-wrap: wrap;
+  }
+  .single-popular{
+    padding: 0.5%;
+    margin: 3% 0.5%;
+  }
+  .product-list{
+    width: 100%;
+    padding: 0;
+  }
+  .product-special{
+    width: 100%;
+  }
+  .Quran{
+    width: 185px;
+  }
+  .LastNav ul li a{
+    font-size: 12px;
+  }
+  .logo img{
+    width: 150px;
+  }
+  .catalog-button{
+    padding: 5px 10px;
+  }
+  .catalog-button button{
+    display: flex;
+    flex-direction: row;
+  }
+  .search{
+    height: 30%;
+  }
+  .newbook-single-component{
+    flex-wrap: wrap;
+  }
+  .sub-nav a{
+    font-size: 12px;
+  }
+  .recommend-list1{
+    flex-wrap: wrap;
+  }
+  .product-preview{
+    margin: 0;
+  }
+}
+@media (min-width: 1201px) and (max-width: 1335px) {
+  .left-ad, .right-ad{
+    display: none;
+  }
+  .recommend-list{
+    flex-wrap: wrap;
+  }
+  .single-popular{
+    padding: 0.5%;
+    margin: 3% 0.5%;
+  }
+  .product-list{
+    width: 100%;
+    padding: 0;
+  }
+  .product-special{
+    width: 100%;
+  }
+  .Quran{
+    width: 185px;
+  }
+  .LastNav ul li a{
+    font-size: 12px;
+  }
+  .logo img{
+    width: 150px;
+  }
+  .catalog-button{
+    padding: 5px 10px;
+  }
+  .catalog-button button{
+    display: flex;
+    flex-direction: row;
+  }
+  .search{
+    height: 30%;
+  }
+  .newbook-single-component{
+    flex-wrap: wrap;
+  }
+  .sub-nav a{
+    font-size: 12px;
+  }
+  .recommend-list1{
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 1336px) and (max-width: 1400px) {
+  .product-preview{
+    margin: 0;
+  }
+  .product-preview1{
+    margin: 5%;
   }
 }
 @keyframes fadein {

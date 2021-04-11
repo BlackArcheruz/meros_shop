@@ -11,7 +11,7 @@ const Product = ({Quran, Stars}) => {
     return (
         <div className="product-list">
             <div className="first-list">
-            <div className="product-preview">
+            <div className="product-preview hi-product">
                 <div className="img-preview">
                     <div className="img-icons">
                 <button style={style}><img src={visibility} alt="" className="icon-img"/></button>
@@ -25,7 +25,7 @@ const Product = ({Quran, Stars}) => {
                 <img src={Stars} alt="" className="stars"/>
                 <h2>200 000 сум</h2>
             </div>
-            <div className="product-preview">
+            <div className="product-preview hi-product">
             <div className="img-preview">
                     <div className="img-icons">
                     <button style={style}><img src={visibility} alt="" className="icon-img"/></button>
@@ -38,7 +38,7 @@ const Product = ({Quran, Stars}) => {
                 <img src={Stars} alt="" className="stars"/>
                 <h3>200 000 сум</h3>
             </div>
-            <div className="product-preview">
+            <div className="product-preview hi-product">
             <div className="img-preview">
                     <div className="img-icons">
                     <button style={style}><img src={visibility} alt="" className="icon-img"/></button>
@@ -51,7 +51,7 @@ const Product = ({Quran, Stars}) => {
                 <img src={Stars} alt="" className="stars"/>
                 <h3>200 000 сум</h3>
             </div>
-            <div className="product-preview">
+            <div className="product-preview hi-product">
             <div className="img-preview">
                     <div className="img-icons">
                     <button style={style}><img src={visibility} alt="" className="icon-img"/></button>
@@ -67,7 +67,7 @@ const Product = ({Quran, Stars}) => {
             </div>
             </div>
             <div className="first-list">
-            <div className="product-preview">
+            <div className="product-preview hi-product">
             <div className="img-preview">
                     <div className="img-icons">
                     <button style={style}><img src={visibility} alt="" className="icon-img"/></button>
@@ -80,7 +80,7 @@ const Product = ({Quran, Stars}) => {
                 <img src={Stars} alt="" className="stars"/>
                 <h3>200 000 сум</h3>
             </div>
-            <div className="product-preview">
+            <div className="product-preview hi-product">
             <div className="img-preview">
                     <div className="img-icons">
                     <button style={style}><img src={visibility} alt="" className="icon-img"/></button>
@@ -93,7 +93,7 @@ const Product = ({Quran, Stars}) => {
                 <img src={Stars} alt="" className="stars"/>
                 <h3>200 000 сум</h3>
             </div>
-            <div className="product-preview">
+            <div className="product-preview hi-product">
                                 <div className="img-preview">
                     <div className="img-icons">
                     <button style={style}><img src={visibility} alt="" className="icon-img"/></button>
@@ -107,7 +107,7 @@ const Product = ({Quran, Stars}) => {
                 <img src={Stars} alt="" className="stars"/>
                 <h2>200 000 сум</h2>
             </div>
-            <div className="product-preview">
+            <div className="product-preview hi-product">
             <div className="img-preview">
                     <div className="img-icons">
                     <button style={style}><img src={visibility} alt="" className="icon-img"/></button>

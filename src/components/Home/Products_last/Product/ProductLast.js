@@ -18,7 +18,7 @@ const ProductLast = ({Hadis, Stars}) => {
                 <button style={style}><img src={star} alt="" className="icon-img"/></button>
                 <button style={style}><img src={trash} alt="" className="icon-img"/></button>
                 </div>
-                <img src={Hadis} alt="" className="Quran"/>
+                <img src={Hadis} alt="" />
                 </div>
                 <span>-54%</span>
                 <p>Книги</p>
@@ -32,7 +32,7 @@ const ProductLast = ({Hadis, Stars}) => {
                 <button style={style}><img src={star} alt="" className="icon-img"/></button>
                 <button style={style}><img src={trash} alt="" className="icon-img"/></button>
                 </div>
-                <img src={Hadis} alt="" className="Quran"/>
+                <img src={Hadis} alt="" />
                 </div>
                 <p>Книги</p>
                 <img src={Stars} alt="" className="stars"/>
@@ -45,7 +45,7 @@ const ProductLast = ({Hadis, Stars}) => {
                 <button style={style}><img src={star} alt="" className="icon-img"/></button>
                 <button style={style}><img src={trash} alt="" className="icon-img"/></button>
                 </div>
-                <img src={Hadis} alt="" className="Quran"/>
+                <img src={Hadis} alt="" />
                 </div>
                 <p>Книги</p>
                 <img src={Stars} alt="" className="stars"/>
@@ -58,7 +58,7 @@ const ProductLast = ({Hadis, Stars}) => {
                 <button style={style}><img src={star} alt="" className="icon-img"/></button>
                 <button style={style}><img src={trash} alt="" className="icon-img"/></button>
                 </div>
-                <img src={Hadis} alt="" className="Quran"/>
+                <img src={Hadis} alt="" />
                 </div>
                 <span>-70%</span>
                 <p>Книги</p>
@@ -74,7 +74,7 @@ const ProductLast = ({Hadis, Stars}) => {
                 <button style={style}><img src={star} alt="" className="icon-img"/></button>
                 <button style={style}><img src={trash} alt="" className="icon-img"/></button>
                 </div>
-                <img src={Hadis} alt="" className="Quran"/>
+                <img src={Hadis} alt=""/>
                 </div>
                 <p>Книги</p>
                 <img src={Stars} alt="" className="stars"/>
@@ -87,7 +87,7 @@ const ProductLast = ({Hadis, Stars}) => {
                 <button style={style}><img src={star} alt="" className="icon-img"/></button>
                 <button style={style}><img src={trash} alt="" className="icon-img"/></button>
                 </div>
-                <img src={Hadis} alt="" className="Quran"/>
+                <img src={Hadis} alt=""/>
                 </div>
                 <p>Книги</p>
                 <img src={Stars} alt="" className="stars"/>
@@ -100,7 +100,7 @@ const ProductLast = ({Hadis, Stars}) => {
                 <button style={style}><img src={star} alt="" className="icon-img"/></button>
                 <button style={style}><img src={trash} alt="" className="icon-img"/></button>
                 </div>
-                <img src={Hadis} alt="" className="Quran"/>
+                <img src={Hadis} alt=""/>
                 </div>
                 <span>-5%</span>
                 <p>Книги</p>
@@ -114,7 +114,7 @@ const ProductLast = ({Hadis, Stars}) => {
                 <button style={style}><img src={star} alt="" className="icon-img"/></button>
                 <button style={style}><img src={trash} alt="" className="icon-img"/></button>
                 </div>
-                <img src={Hadis} alt="" className="Quran"/>
+                <img src={Hadis} alt=""/>
                 </div>
                 <p>Книги</p>
                 <img src={Stars} alt="" className="stars"/>

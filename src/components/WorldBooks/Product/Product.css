@@ -2130,7 +2130,7 @@
     .mainproduct-container{
         display: flex;
         flex-direction: column;
-        width: 95%;
+        width: 90%;
     }
     .mainproduct-container .xudtovar-container .xudtovar-content{
         flex-direction: column;
@@ -2186,7 +2186,7 @@
     .mainproduct-container{
         display: flex;
         flex-direction: column;
-        width: 95%;
+        width: 90%;
     }
     .mainproduct-container .xudtovar-container .xudtovar-content{
         flex-direction: column;
@@ -2242,7 +2242,7 @@
     .mainproduct-container{
         display: flex;
         flex-direction: column;
-        width: 95%;
+        width: 90%;
     }
     .mainproduct-container .xudtovar-container .xudtovar-content{
         flex-direction: column;
@@ -2292,6 +2292,10 @@
     }
     .mainproduct-container .otziv-container .comment-container .otziv-comments .single-comment .cominfo .do-com span{
         width: 100%;
+    }
+    .mainproduct-container .xudtovar-container .xudtovar-content .xudbig-img{
+        width: 100%;
+        margin-left: 0;
     }
 }
 @media (min-width: 1025px) and (max-width: 1200px){

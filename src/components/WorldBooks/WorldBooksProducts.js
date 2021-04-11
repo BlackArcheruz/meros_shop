@@ -55,7 +55,7 @@ const WorldBooksProducts = () => {
     return (
         <div className="worldbook-products">
             {products.map((product)=>(
-                        <div className="product-preview1" key={product.id}>
+                        <div className="product-preview1 world-product-single" key={product.id}>
                             <div className="img-preview">
                         <div className="img-icons">
                 <img src={visibility} alt="" className="icon-img"/>

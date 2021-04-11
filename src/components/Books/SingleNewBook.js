@@ -40,7 +40,7 @@ const SingleNewBook = ({product, Stars}) => {
     ]);
     return (
         <Fragment>
-            <div className="first-list">
+            <div className="first-list newbook-single-component">
             {recommends.map((recommend)=>(
                         <div className="product-preview" key={recommend.id}>
                             <img src={product} alt="" />

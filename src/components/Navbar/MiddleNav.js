@@ -26,7 +26,13 @@ const MiddleNav = () => {
                 <button className={katalogShow === true ? 'btn katalog-btn-showed' : `btn btn-primary`} onClick={()=>{setKatalogShow(true)}}><img src={katalogShow === false ? Katalog : Times} alt=""/> Каталог</button>
             </div>
             <div className="search">
-                    <input type="text" placeholder="Поиск по товаром..." className="search-input"/>
+                    <input list="options" type="text" placeholder="Поиск по товаром..." className="search-input"/>
+                    <datalist id="options">
+                        <option value="Мужская Одежда">Мужская Одежда</option>
+                        <option value="Мужская Одежда">Мужская Одежда</option>
+                        <option value="Мужская Одежда">Мужская Одежда</option>
+                        <option value="Мужская Одежда">Мужская Одежда</option>
+                    </datalist>
                     <button className="btn-light-sm search-button" onClick={()=>{setShow(true)}}>Все категории <img src={Categ} alt=""/></button>
                     <button className="btn btn-primary-sm"><img src={Search} alt=""/></button>
             </div>

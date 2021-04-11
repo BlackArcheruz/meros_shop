@@ -23,9 +23,11 @@ import xudbig from './images/bigxudtovar.png'
 import z1 from './images/z1.png'
 import profcomphoto from './images/profcomphoto.png'
 import adbacha from './images/adbacha.png'
+import OtzivModal from '../../Modals/OtzivModal'
 
 
 function Product () {
+    const [show,setShow] = useState(false)
 
     // const [ state, setState ] = useState(1)
 
@@ -630,7 +632,7 @@ function Product () {
                     </div>
                     <div className="leaveotziv-container">
                         <div className="otziv-btn">
-                            <button data-toggle="modal" data-target="#otzivModal">Оставить отзыв</button>
+                            <button onClick={()=>{setShow(true)}}>Оставить отзыв</button>
                             <div className="otz-rate">
                                 <h4>Отзывы с оценкой</h4>
                                 <div className="star-rate">
@@ -738,6 +740,7 @@ function Product () {
                     </div>
                 </div>
             </div>
+            <OtzivModal show={show} onClose={()=>{setShow(false)}}/>
         </>
     )
 }
