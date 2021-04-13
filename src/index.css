@@ -250,7 +250,7 @@ hr{
   padding: 5% 0;
 }
 .right-ad{
-  width: 20%;
+  width: 15%;
 }
 .right-ad img{
   width: 100%;
@@ -355,6 +355,7 @@ hr{
 }
 footer{
   background-color: #F4F7F8;
+  margin-top: 5%;
 }
 .grey-text{
   color: #666;
@@ -1030,7 +1031,15 @@ footer{
 .deliver-img img{
   width: 100%;
 }
-
+#prev-btn, #next-btn{
+  display: none;
+}
+.button-pagination{
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  margin: auto;
+}
 ::-webkit-scrollbar{
   width: 10px;
 }
@@ -1132,6 +1141,9 @@ footer{
     flex-direction: column;
     align-items: center;
   }
+  .otziv-modal-content, .cabinet-modal-content{
+    width: 80%;
+  }
 }
 @media (min-width: 481px) and (max-width: 768px) {
   .TopNav, .catalog-button, .search-button, .icons, .LastNav,.small-ad,.left-ad, .right-ad, .greenBox,.redBox,.cabinet-side{
@@ -1180,18 +1192,14 @@ footer{
   }
   .product-list1{
     width: 100%;
-    flex-wrap: unset;
-  }
-  .product-list{
-      flex-wrap: unset;
   }
   .first-list{
     width: 100%;
     align-items: center;
-    flex-wrap: unset;
   }
-  .first-list:last-child{
-    margin-left: 40%;
+  .product-list, .product-list1,.product-special{
+    align-items: center;
+    width: 100%;
   }
   .img-preview{
     justify-content: unset;
@@ -1209,59 +1217,120 @@ footer{
     flex-direction: column;
     align-items: center;
   }
-  .brands, .recommend-list{
-    flex-direction: row;
-    flex-wrap: wrap;
+  .all-categ-mob-modal-body ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .all-categ-mob-modal-body ul li a{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+  }
+  .all-categ-mob-modal-body ul li a i{
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+  }
+  .otziv-modal-content, .cabinet-modal-content{
+    width: 80%;
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
-  .left-ad, .right-ad{
+  .TopNav, .catalog-button, .icons, .LastNav,.small-ad,.left-ad, .right-ad, .greenBox,.redBox,.cabinet-side{
     display: none;
   }
-  .recommend-list{
-    flex-wrap: wrap;
+  .MiddleNav{
+    flex-direction: column;
   }
-  .single-popular{
-    padding: 0.5%;
-    margin: 3% 0.5%;
-  }
-  .product-list{
-    width: 100%;
-    padding: 0;
-  }
-  .product-special{
+  .search,.deliver-single,.trash-for,.trash-ofor,.my-data-card, .my-datas,.cabinet-map,.cabinet-flex,.cabinet1,.cabinet{
     width: 100%;
   }
-  .Quran{
-    width: 185px;
+  .bm-burger-button{
+    display: inline;
   }
-  .LastNav ul li a{
-    font-size: 12px;
-  }
-  .logo img{
-    width: 150px;
-  }
-  .catalog-button{
-    padding: 5px 10px;
-  }
-  .catalog-button button{
+  .savatbek{
     display: flex;
-    flex-direction: row;
   }
-  .search{
-    height: 30%;
+  .Showcase, .Special,.counter-content,.my-datas,.cabinet-flex,.cabinet1{
+    flex-direction: column;
   }
-  .newbook-single-component{
-    flex-wrap: wrap;
+  .Special img{
+    width: 100%;
+    margin-top: 10px;
   }
-  .sub-nav a{
-    font-size: 12px;
+  .first-list,.deliver-content,.popular,.brands,.footer,.korzinka{
+    flex-direction: column;
   }
-  .recommend-list1{
-    flex-wrap: wrap;
+  .sub-nav{
+    display: none;
+  }
+  .Special2{
+    margin: 10px 0;
+  }
+  .btn-display{
+    display: block;
+    width: 100%;
+  }
+  .my-data-card, .cabinet-map{
+    margin: 10px 0;
+  }
+  .cabinet-flex form{
+    margin: 30px 0;
+  }
+  #prev-btn, #next-btn{
+    display: none;
+  }
+  .product-list1{
+    width: 100%;
+  }
+  .first-list{
+    width: 100%;
+    align-items: center;
+  }
+  .product-list, .product-list1,.product-special{
+    align-items: center;
+    width: 100%;
+  }
+  .img-preview{
+    justify-content: unset;
+  }
+  .deliver-img img{
+    width: 100%;
+  }
+  .first-list .single-popular{
+    width: 100%;
+  }
+  .select-option{
+    display: none;
+  }
+  .worldbook-products{
+    flex-direction: column;
+    align-items: center;
+  }
+  .all-categ-mob-modal-body ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .all-categ-mob-modal-body ul li a{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+  }
+  .all-categ-mob-modal-body ul li a i{
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
   }
 }
-@media (min-width: 1025px) and (max-width: 1201px) {
+@media (min-width: 1025px) and (max-width: 1046px) {
   .left-ad, .right-ad{
     display: none;
   }
@@ -1310,11 +1379,23 @@ footer{
   .product-preview{
     margin: 0;
   }
-}
-@media (min-width: 1201px) and (max-width: 1335px) {
-  .left-ad, .right-ad{
-    display: none;
+  .newbook-single-component{
+    flex-wrap: wrap;
   }
+  .cabinet-map{
+    margin-left: 5%;
+  }
+  .product-preview1{
+    margin: 5%;
+  }
+}
+@media (min-width: 1046px) and (max-width: 1201px) {
+.left-ad{
+  width: 10%;
+}
+.sub-nav a{
+  font-size: larger;
+}
   .recommend-list{
     flex-wrap: wrap;
   }
@@ -1323,14 +1404,14 @@ footer{
     margin: 3% 0.5%;
   }
   .product-list{
-    width: 100%;
+    width: 90%;
     padding: 0;
   }
   .product-special{
     width: 100%;
   }
   .Quran{
-    width: 185px;
+    width: 165px;
   }
   .LastNav ul li a{
     font-size: 12px;
@@ -1357,6 +1438,79 @@ footer{
   .recommend-list1{
     flex-wrap: wrap;
   }
+  .product-preview1{
+    margin: 2%;
+  }
+  .newbook-single-component{
+    flex-wrap: wrap;
+  }
+  .cabinet-map{
+    margin-left: 5%;
+  }
+}
+@media (min-width: 1190px) and (max-width: 1220px) {
+.left-ad{
+  width: 15%;
+}
+.left-ad img{
+  height: 100vh;
+}
+.product-list{
+  width: 85%;
+}
+.recommend-list1, .recommend-list{
+  flex-wrap: wrap;
+}
+.product-preview1{
+  margin: 2%;
+}
+.Quran{
+  width: 185px;
+}
+.single-popular{
+  padding: 1%;
+}
+.newbook-single-component{
+  flex-wrap: wrap;
+}
+.sub-nav a{
+  font-size: larger;
+}
+.cabinet-map{
+  margin-left: 5%;
+}
+}
+@media (min-width: 1221px) and (max-width: 1336px) {
+.left-ad{
+  width: 15%;
+}
+.left-ad img{
+  height: 100vh;
+}
+.product-list{
+  width: 85%;
+}
+.recommend-list1, .recommend-list{
+  flex-wrap: wrap;
+}
+.product-preview1{
+  margin: 2%;
+}
+.Quran{
+  width: 185px;
+}
+.single-popular{
+  padding: 1%;
+}
+.newbook-single-component{
+  flex-wrap: wrap;
+}
+.sub-nav a{
+  font-size: 15px;
+}
+.cabinet-map{
+  margin-left: 5%;
+}
 }
 @media (min-width: 1336px) and (max-width: 1400px) {
   .product-preview{

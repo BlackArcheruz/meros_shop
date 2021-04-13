@@ -72,6 +72,7 @@ const KatalogModal = (props) => {
                             <img src={hilol} alt=""/>
                         </div>
                     </div>
+                    <div className="all-categ-modal-close" onClick={props.onClose}><button>&times;</button></div> 
                 </div>
             </div>
         </div>

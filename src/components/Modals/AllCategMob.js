@@ -1,5 +1,4 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
 
 const AllCategMob = (props) => {
     if(!props.show){
@@ -13,16 +12,16 @@ const AllCategMob = (props) => {
                 </div>
                 <div className="all-categ-mob-modal-body">
                 <ul>
-                <li><Link to="/categories/books"><i className="fas fa-book"></i> Книги</Link></li>
-                <li><Link to="/categories/books"><i className="fas fa-glass-martini"></i> Сувениры</Link></li>
-                <li><Link to="/categories/books"><i className="fas fa-male"></i> Для мужчин</Link></li>
-                <li><Link to="/categories/books"><i className="fas fa-female"></i> Для женщин</Link></li>
-                <li><Link to="/categories/books"><i className="fas fa-child"></i> Для детей</Link></li>
-                <li><Link to="/categories/books"><i className="fab fa-creative-commons-by"></i> Атрибутика</Link></li>
-                <li><Link to="/categories/books"><i className="fas fa-heartbeat"></i> Личение и здоровые</Link></li>
-                <li><Link to="/categories/books"><i className="fas fa-utensils"></i> Продукты питания</Link></li>
-                <li><Link to="/categories/books"><i className="fas fa-gift"></i> Идеи подарка</Link></li>
-                <li><Link to="/categories/books"><i className="fas fa-tshirt"></i> Meros Мерч</Link></li>
+                <li><a href="/categories/books"><i className="fas fa-book"></i><span>Книги</span></a></li>
+                <li><a href="/categories/books"><i className="fas fa-glass-martini"></i><span>Сувениры</span></a></li>
+                <li><a href="/categories/books"><i className="fas fa-male"></i><span>Для мужчин</span></a></li>
+                <li><a href="/categories/books"><i className="fas fa-female"></i><span>Для женщин</span></a></li>
+                <li><a href="/categories/books"><i className="fas fa-child"></i><span>Для детей</span></a></li>
+                <li><a href="/categories/books"><i className="fab fa-creative-commons-by"></i><span>Атрибутика</span></a></li>
+                <li><a href="/categories/books"><i className="fas fa-heartbeat"></i><span>Личение и здоровые</span></a></li>
+                <li><a href="/categories/books"><i className="fas fa-utensils"></i><span>Продукты питания</span></a></li>
+                <li><a href="/categories/books"><i className="fas fa-gift"></i><span>Идеи подарка</span></a></li>
+                <li><a href="/categories/books"><i className="fas fa-tshirt"></i><span>Meros Мерч</span></a></li>
             </ul>
                 </div>
             </div>

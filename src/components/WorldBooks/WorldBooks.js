@@ -8,6 +8,7 @@ import KitobCateg from '../Modals/KitobCateg'
 
 const DunyoKitoblari = () => {
     const [show,setShow] = useState(false)
+    const style = {"background": "none", "border": "none", "color": "#273142", "cursor": "pointer", "fontSize": "x-large"}
     return (
         <div className="container">
                 <div className="cabinet-line">
@@ -22,7 +23,15 @@ const DunyoKitoblari = () => {
                 <WorldBooksContent/>
                 <hr/>
                 <WorldBooksProducts/>
-                
+                <div className="button-pagination">
+                <button style={style}>&laquo;</button>
+                <button style={style}>1</button>
+                <button style={style}>2</button>
+                <button style={style}>3</button>
+                <button style={style}>4</button>
+                <button style={style}>...</button>
+                <button style={style}>&raquo;</button>
+                </div>
                 </div>
             </div>
             <Section/>
