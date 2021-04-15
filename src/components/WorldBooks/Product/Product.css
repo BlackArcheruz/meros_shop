@@ -604,7 +604,6 @@
     display: flex;
     flex-direction: row;
     margin-top: 15px;
-    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -2181,6 +2180,10 @@
     .mainproduct-container .otziv-container .comment-container .otziv-comments .single-comment .cominfo .do-com span{
         width: 100%;
     }
+    .mainproduct-container .smotr-book .smotr-container{
+        flex-direction: column;
+        align-items: center;
+    }
 }
 @media (min-width: 481px) and (max-width: 768px){
     .mainproduct-container{
@@ -2237,6 +2240,10 @@
     .mainproduct-container .otziv-container .comment-container .otziv-comments .single-comment .cominfo .do-com span{
         width: 100%;
     }
+    .mainproduct-container .smotr-book .smotr-container{
+        flex-direction: column;
+        align-items: center;
+    }
 }
 @media (min-width: 769px) and (max-width: 1024px){
     .mainproduct-container{
@@ -2252,9 +2259,6 @@
     }
     .mainproduct-container .opisan-book{
         width: 100%;
-    }
-    .mainproduct-container .otziv-container{
-        flex-direction: column;
     }
     .mainproduct-container .xudtovar-container .xudtovar-content .xuddesc-container .shorttovar-desc{
         width: 100%;
@@ -2296,6 +2300,10 @@
     .mainproduct-container .xudtovar-container .xudtovar-content .xudbig-img{
         width: 100%;
         margin-left: 0;
+    }
+    .mainproduct-container .smotr-book .smotr-container{
+        flex-direction: column;
+        align-items: center;
     }
 }
 @media (min-width: 1025px) and (max-width: 1200px){

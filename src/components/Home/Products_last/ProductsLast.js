@@ -102,7 +102,7 @@ const ProductsLast = () => {
         <div className="product-special1">
         <ProductLast Hadis={Hadis} Stars={Stars}/>
         <div className="right-ad">
-            <img src={FirstAd} alt=""/>
+            {/* <img src={FirstAd} alt=""/> */}
         </div>
         </div>
         </>

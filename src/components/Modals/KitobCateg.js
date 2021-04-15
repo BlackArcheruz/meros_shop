@@ -12,22 +12,22 @@ const KitobCateg = (props) => {
                 </div>
                 <div className="all-categ-mob-modal-body">
                     <div className="kitob-categ-body">
-                <h3>Бестселлеры </h3><input type="checkbox" name="" id=""/>
-            <h3>Бестселлеры </h3><input type="checkbox" name="" id=""/>
-            <h3>Бестселлеры </h3><input type="checkbox" name="" id=""/>
-            <h3>Бестселлеры </h3><input type="checkbox" name="" id=""/>
-            <h3>Бестселлеры </h3><input type="checkbox" name="" id=""/>
-            <h3>Бестселлеры </h3><input type="checkbox" name="" id=""/>
-            <h3>Бестселлеры </h3><input type="checkbox" name="" id=""/>
-            <h3>Бестселлеры </h3><input type="checkbox" name="" id=""/>
+            <div className="bestseller-mob"><h3>Бестселлеры </h3><input type="checkbox" name="" id=""/></div>
+            <div className="bestseller-mob"><h3>Бестселлеры </h3><input type="checkbox" name="" id=""/></div>
+            <div className="bestseller-mob"><h3>Бестселлеры </h3><input type="checkbox" name="" id=""/></div>
+            <div className="bestseller-mob"><h3>Бестселлеры </h3><input type="checkbox" name="" id=""/></div>
+            <div className="bestseller-mob"><h3>Бестселлеры </h3><input type="checkbox" name="" id=""/></div>
+            <div className="bestseller-mob"><h3>Бестселлеры </h3><input type="checkbox" name="" id=""/></div>
+            <div className="bestseller-mob"><h3>Бестселлеры </h3><input type="checkbox" name="" id=""/></div>
+            <div className="bestseller-mob"><h3>Бестселлеры </h3><input type="checkbox" name="" id=""/></div>
             <div className="types-cat">
-            <h3>Печатная книга </h3><input type="checkbox" name="" id=""/>
-            <h3>Печатная книга </h3><input type="checkbox" name="" id=""/>
-            <h3>Печатная книга </h3><input type="checkbox" name="" id=""/>
-            <h3>Печатная книга </h3><input type="checkbox" name="" id=""/>
-            <h3>Печатная книга </h3><input type="checkbox" name="" id=""/>
-            <h3>Печатная книга </h3><input type="checkbox" name="" id=""/>
-            <h3>Печатная книга </h3><input type="checkbox" name="" id=""/>
+            <div className="type-mob"><h3>Печатная книга </h3><input type="checkbox" name="" id=""/></div>
+            <div className="type-mob"><h3>Печатная книга </h3><input type="checkbox" name="" id=""/></div>
+            <div className="type-mob"><h3>Печатная книга </h3><input type="checkbox" name="" id=""/></div>
+            <div className="type-mob"><h3>Печатная книга </h3><input type="checkbox" name="" id=""/></div>
+            <div className="type-mob"><h3>Печатная книга </h3><input type="checkbox" name="" id=""/></div>
+            <div className="type-mob"><h3>Печатная книга </h3><input type="checkbox" name="" id=""/></div>
+            <div className="type-mob"><h3>Печатная книга </h3><input type="checkbox" name="" id=""/></div>
             </div></div></div>
             </div>
         </div>

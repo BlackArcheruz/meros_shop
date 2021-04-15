@@ -5,6 +5,7 @@ import WorldBooksContent from './WorldBooksContent'
 import WorldBooksFilter from './WorldBooksFilter'
 import WorldBooksProducts from './WorldBooksProducts'
 import KitobCateg from '../Modals/KitobCateg'
+import KitobSubCateg from '../Modals/KitobSubCateg'
 
 const DunyoKitoblari = () => {
     const [show,setShow] = useState(false)

@@ -27,12 +27,12 @@ const MiddleNav = () => {
             </div>
             <div className="search">
                     <input list="options" type="text" placeholder="Поиск по товаром..." className="search-input"/>
-                    <datalist id="options">
+                    {/* <datalist id="options">
                         <option value="Мужская Одежда">Мужская Одежда</option>
                         <option value="Мужская Одежда">Мужская Одежда</option>
                         <option value="Мужская Одежда">Мужская Одежда</option>
                         <option value="Мужская Одежда">Мужская Одежда</option>
-                    </datalist>
+                    </datalist> */}
                     <button className="btn-light-sm search-button" onClick={()=>{setShow(true)}}>Все категории <img src={Categ} alt=""/></button>
                     <button className="btn btn-primary-sm"><img src={Search} alt=""/></button>
             </div>

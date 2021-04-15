@@ -12,7 +12,7 @@ const CabinetDashMob = (props) => {
                 </div>
                 <div className="kitob-categ-body">
                 <img src={props.profile} alt=""/>
-            <div className="kitob-categ-body">
+            <div className="kitob-categ-body cabinet-mob">
             <h2>Вахабов Абдулбасит</h2>
             <h4>Покупки</h4>
             <a href="/cabinet" className="grey-text">Заказы</a>

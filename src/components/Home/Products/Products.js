@@ -101,7 +101,7 @@ const Products = () => {
         </div>
         <div className="product-special">
         <div className="left-ad">
-            <img src={FirstAd} alt=""/>
+            {/* <img src={FirstAd} alt=""/> */}
         </div>
         <Product Quran={Quran} Stars={Stars}/>
         </div>

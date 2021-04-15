@@ -1,21 +1,19 @@
 import React from 'react'
-import TrashOfor from './TrashOfor'
-import TrashSide from './TrashSide'
+import TrashOfor from '../Trash/TrashOfor'
 
-const Trash = () => {
+const MyOrders = () => {
     return (
         <div className="container">
             <div className="cabinet-line">
-                <a href="/">Главная / </a>
+                <a href="/">Главная /</a>
                 <a href="/korzina">Корзина</a>
             </div>
-            <h2 className="h2">Корзина</h2>
+            <h2 className="h2">Оформление</h2>
             <div className="korzinka">
-                <TrashSide/>
                 <TrashOfor/>
             </div>
         </div>
     )
 }
 
-export default Trash
+export default MyOrders

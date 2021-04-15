@@ -73,6 +73,8 @@ hr{
   outline: none;
   border: none;
   cursor: pointer;
+  display: flex;
+  flex-direction: row;
 }
 .btn-primary{
   background-color: #32386B;
@@ -90,6 +92,13 @@ hr{
 }
 .catalog-button{
   padding: 5px 0;
+}
+.catalog-button button{
+    display: flex;
+  flex-direction: row;
+}
+.catalog-button img{
+  padding: 2px 5px;
 }
 .search-input{
   width: 60%;
@@ -190,9 +199,9 @@ hr{
 }
 .left-ad{
   width: 25%;
-}
-.left-ad img{
-  width: 100%;
+  background-image: url('./components/Home/Products/img/Ads/First.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .product-special, .product-list{
   display: flex;
@@ -250,10 +259,10 @@ hr{
   padding: 5% 0;
 }
 .right-ad{
-  width: 15%;
-}
-.right-ad img{
-  width: 100%;
+  width: 20%;
+  background-image: url('./components/Home/Products_last/img/Ads/First.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .product-special1{
   display: flex;
@@ -276,6 +285,7 @@ hr{
 .img-preview{
   display: flex;
   justify-content: space-between;
+  object-fit: cover;
 }
 .img-icons{
   display: inline-flex;
@@ -563,11 +573,14 @@ footer{
 }
 .price-cost h5{
   font-family: Roboto;
+  font-weight: 600;
+  font-size: large;
 }
 .content-product-price, .content-opshiy{
   display: flex;
   justify-content: space-between;
   font-family: Roboto;
+  padding: 10px;
 }
 .trash-ofor{
   width: 45%;
@@ -678,7 +691,6 @@ footer{
 }
 .type{
   display: flex;
-  flex-direction: row-reverse;
   flex-wrap: wrap;
   align-items: center;
   padding: 10px 0px;
@@ -808,13 +820,17 @@ footer{
 .katalog-modal-content{
   background-color: #fff;
   width: 100%;
-  height: 100%;
-  margin-top: 15%;
+  margin-top: 5%;
+}
+.katalog-close button{
+  font-size: 50px;
+}
+.katalog-close{
+  padding: 0 10px;
 }
 .katalog-modal-body{
   display: flex;
   justify-content: space-between;
-  height: 100%;
 }
 .katalog-modal-nav{
   background-color: #F4F7F8;
@@ -962,10 +978,19 @@ footer{
 }
 .kitob-categ-body, .types-cat{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 .kitob-categ-body h3, .types-cat h3{
   margin: 3px 0;
+}
+.bestseller-mob, .type-mob{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
 }
 .types-cat{
   margin-top: 20px;
@@ -1039,6 +1064,30 @@ footer{
   justify-content: space-between;
   width: 30%;
   margin: auto;
+}
+.single-product-trash p{
+  margin: 5% 0;
+}
+.cabinet-container a{
+  color: #273142;
+}
+.none-displayed{
+  margin: 0 5px;
+}
+.cabinet-container a:hover{
+  color: #F5921C;
+}
+.cabinet-link, .forward, .savatbek{
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+}
+.cabinet-mob{
+  display: flex;
+  flex-direction: column;
+}
+.cabinet-mob a, .cabinet-mob h2, .cabinet-mob h4{
+  width: 100%;
 }
 ::-webkit-scrollbar{
   width: 10px;
@@ -1360,10 +1409,6 @@ footer{
   .catalog-button{
     padding: 5px 10px;
   }
-  .catalog-button button{
-    display: flex;
-    flex-direction: row;
-  }
   .search{
     height: 30%;
   }
@@ -1389,9 +1434,12 @@ footer{
     margin: 5%;
   }
 }
-@media (min-width: 1046px) and (max-width: 1201px) {
+@media (min-width: 1046px) and (max-width: 1189px) {
 .left-ad{
-  width: 10%;
+  width: 13%;
+}
+.right-ad{
+  width: 13%;
 }
 .sub-nav a{
   font-size: larger;
@@ -1404,7 +1452,7 @@ footer{
     margin: 3% 0.5%;
   }
   .product-list{
-    width: 90%;
+    width: 85%;
     padding: 0;
   }
   .product-special{
@@ -1450,13 +1498,13 @@ footer{
 }
 @media (min-width: 1190px) and (max-width: 1220px) {
 .left-ad{
-  width: 15%;
-}
-.left-ad img{
-  height: 100vh;
+  width: 20%;
 }
 .product-list{
-  width: 85%;
+  width: 80%;
+}
+.catalog-button{
+  padding: 5px 10px;
 }
 .recommend-list1, .recommend-list{
   flex-wrap: wrap;

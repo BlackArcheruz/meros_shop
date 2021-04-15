@@ -25,8 +25,6 @@ const KatalogModal = (props) => {
                         <h1>Книги</h1>
                         <h1>Книги</h1>
                         <h1>Книги</h1>
-                        <h1>Книги</h1>
-                        <h1>Книги</h1>
                     </div>
                     <div className="katalog-body-texts">
                     <div className="katalog-modal-body-text">
@@ -72,7 +70,7 @@ const KatalogModal = (props) => {
                             <img src={hilol} alt=""/>
                         </div>
                     </div>
-                    <div className="all-categ-modal-close" onClick={props.onClose}><button>&times;</button></div> 
+                    <div className="all-categ-modal-close katalog-close" onClick={props.onClose}><button>&times;</button></div> 
                 </div>
             </div>
         </div>

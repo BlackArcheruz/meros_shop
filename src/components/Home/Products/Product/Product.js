@@ -110,7 +110,7 @@ const Product = ({Quran, Stars}) => {
             <div className="product-preview hi-product">
             <div className="img-preview">
                     <div className="img-icons">
-                    <button style={style}><img src={visibility} alt="" className="icon-img"/></button>
+                <button style={style}><img src={visibility} alt="" className="icon-img"/></button>
                 <button style={style}><img src={star} alt="" className="icon-img"/></button>
                 <button style={style}><img src={trash} alt="" className="icon-img"/></button>
                 </div>

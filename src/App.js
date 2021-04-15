@@ -14,6 +14,7 @@ import NotFound from './components/NotFound/NotFound'
 import DunyoKitoblari from './components/WorldBooks/WorldBooks'
 import Product from './components/WorldBooks/Product/Product'
 import Sidebar from './components/Sidebar/Sidebar'
+import MyOrders from './components/MyOrders/MyOrders'
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -57,6 +58,9 @@ function App() {
         </Route>
         <Route exact path="/categories/books/worldbooks/:id">
           <Product/>
+        </Route>
+        <Route exact path="/myofor">
+          <MyOrders/>
         </Route>
         <Route path="/*">
           <NotFound/>
