@@ -57,12 +57,13 @@ const WorldBooksProducts = () => {
             {products.map((product)=>(
                         <div className="product-preview1 world-product-single" key={product.id}>
                             <div className="img-preview">
-                        <div className="img-icons">
+                <div className="img">
+                            <img src={product.image} alt="" /></div>
+                            <div className="img-icons">
                 <img src={visibility} alt="" className="icon-img"/>
                 <img src={star} alt="" className="icon-img"/>
                 <img src={trash} alt="" className="icon-img"/>
-                </div>
-                            <img src={product.image} alt="" /></div>
+                </div></div>
                             <p>{product.categ}</p>
                             <h2>{product.cost}</h2>
                             <button className="btn btn-primary product-btn">{product.button_name}</button>

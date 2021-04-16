@@ -4,6 +4,7 @@ import food from '../Home/Popular/img/food.svg'
 import oil from '../Home/Popular/img/oil.svg'
 import sofa from '../Home/Popular/img/sofa.svg'
 import taqinchoq from '../Home/Popular/img/taqinchoq.svg'
+import {Link} from 'react-router-dom'
 
 const SingleNewBook = () => {
     const [populars,setPopulars] = useState([
@@ -37,12 +38,12 @@ const SingleNewBook = () => {
         <Fragment>
             <div className="first-list">
             {populars.map((popular)=>(
-                <a href="/categories/books/worldbooks" className="single-popular">
+                <Link to="/categories/books/worldbooks" className="single-popular">
             <div className="single-popular" key={populars.id}>
                 <img src={popular.image_src} alt=""/>
                 <div className="popular-single-text dark-text"><h3>{popular.categ}</h3></div>
                 </div>
-                </a>
+                </Link>
             ))}
             </div>
         </Fragment>

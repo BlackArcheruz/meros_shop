@@ -75,6 +75,7 @@ hr{
   cursor: pointer;
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 .btn-primary{
   background-color: #32386B;
@@ -285,6 +286,9 @@ hr{
 .img-preview{
   display: flex;
   justify-content: space-between;
+  flex-direction: row-reverse;
+}
+.img{
   object-fit: cover;
 }
 .img-icons{
@@ -294,6 +298,10 @@ hr{
 }
 .img-icons img{
   margin: 2% 0;
+}
+.img:hover + .img-icons{
+  opacity: 1;
+  transition: ease .3s opacity;
 }
 .img-icons:hover{
   opacity: 1;
@@ -352,7 +360,7 @@ hr{
   text-align: center;
 }
 .product-btn{
-  width: 60%;
+  width: 70%;
   cursor: pointer;
   margin-top: 5%;
 }

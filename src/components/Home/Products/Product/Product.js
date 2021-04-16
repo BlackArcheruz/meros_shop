@@ -13,12 +13,13 @@ const Product = ({Quran, Stars}) => {
             <div className="first-list">
             <div className="product-preview hi-product">
                 <div className="img-preview">
-                    <div className="img-icons">
+                <div className="img">
+                <img src={Quran} alt="" className="Quran"/></div>
+                <div className="img-icons">
                 <button style={style}><img src={visibility} alt="" className="icon-img"/></button>
                 <button style={style}><img src={star} alt="" className="icon-img"/></button>
                 <button style={style}><img src={trash} alt="" className="icon-img"/></button>
                 </div>
-                <img src={Quran} alt="" className="Quran"/>
                 </div>
                 <span>-54%</span>
                 <p>Книги</p>
@@ -26,41 +27,46 @@ const Product = ({Quran, Stars}) => {
                 <h2>200 000 сум</h2>
             </div>
             <div className="product-preview hi-product">
-            <div className="img-preview">
-                    <div className="img-icons">
-                    <button style={style}><img src={visibility} alt="" className="icon-img"/></button>
+                <div className="img-preview">
+                <div className="img">
+                <img src={Quran} alt="" className="Quran"/></div>
+                <div className="img-icons">
+                <button style={style}><img src={visibility} alt="" className="icon-img"/></button>
                 <button style={style}><img src={star} alt="" className="icon-img"/></button>
                 <button style={style}><img src={trash} alt="" className="icon-img"/></button>
                 </div>
-                <img src={Quran} alt="" className="Quran"/>
                 </div>
+                <span>-54%</span>
                 <p>Книги</p>
                 <img src={Stars} alt="" className="stars"/>
-                <h3>200 000 сум</h3>
+                <h2>200 000 сум</h2>
             </div>
             <div className="product-preview hi-product">
-            <div className="img-preview">
-                    <div className="img-icons">
-                    <button style={style}><img src={visibility} alt="" className="icon-img"/></button>
+                <div className="img-preview">
+                <div className="img">
+                <img src={Quran} alt="" className="Quran"/></div>
+                <div className="img-icons">
+                <button style={style}><img src={visibility} alt="" className="icon-img"/></button>
                 <button style={style}><img src={star} alt="" className="icon-img"/></button>
                 <button style={style}><img src={trash} alt="" className="icon-img"/></button>
                 </div>
-                <img src={Quran} alt="" className="Quran"/>
                 </div>
+                <span>-54%</span>
                 <p>Книги</p>
                 <img src={Stars} alt="" className="stars"/>
-                <h3>200 000 сум</h3>
+                <h2>200 000 сум</h2>
             </div>
             <div className="product-preview hi-product">
-            <div className="img-preview">
-                    <div className="img-icons">
-                    <button style={style}><img src={visibility} alt="" className="icon-img"/></button>
+                <div className="img-preview">
+                <div className="img">
+                <img src={Quran} alt="" className="Quran"/></div>
+                <div className="img-icons">
+                <button style={style}><img src={visibility} alt="" className="icon-img"/></button>
                 <button style={style}><img src={star} alt="" className="icon-img"/></button>
                 <button style={style}><img src={trash} alt="" className="icon-img"/></button>
                 </div>
-                <img src={Quran} alt="" className="Quran"/>
                 </div>
-                <span>-70%</span>
+                <span>-54%</span>
                 <p>Книги</p>
                 <img src={Stars} alt="" className="stars"/>
                 <h2>200 000 сум</h2>
@@ -68,57 +74,64 @@ const Product = ({Quran, Stars}) => {
             </div>
             <div className="first-list">
             <div className="product-preview hi-product">
-            <div className="img-preview">
-                    <div className="img-icons">
-                    <button style={style}><img src={visibility} alt="" className="icon-img"/></button>
+                <div className="img-preview">
+                <div className="img">
+                <img src={Quran} alt="" className="Quran"/></div>
+                <div className="img-icons">
+                <button style={style}><img src={visibility} alt="" className="icon-img"/></button>
                 <button style={style}><img src={star} alt="" className="icon-img"/></button>
                 <button style={style}><img src={trash} alt="" className="icon-img"/></button>
                 </div>
-                <img src={Quran} alt="" className="Quran"/>
                 </div>
-                <p>Книги</p>
-                <img src={Stars} alt="" className="stars"/>
-                <h3>200 000 сум</h3>
-            </div>
-            <div className="product-preview hi-product">
-            <div className="img-preview">
-                    <div className="img-icons">
-                    <button style={style}><img src={visibility} alt="" className="icon-img"/></button>
-                <button style={style}><img src={star} alt="" className="icon-img"/></button>
-                <button style={style}><img src={trash} alt="" className="icon-img"/></button>
-                </div>
-                <img src={Quran} alt="" className="Quran"/>
-                </div>
-                <p>Книги</p>
-                <img src={Stars} alt="" className="stars"/>
-                <h3>200 000 сум</h3>
-            </div>
-            <div className="product-preview hi-product">
-                                <div className="img-preview">
-                    <div className="img-icons">
-                    <button style={style}><img src={visibility} alt="" className="icon-img"/></button>
-                <button style={style}><img src={star} alt="" className="icon-img"/></button>
-                <button style={style}><img src={trash} alt="" className="icon-img"/></button>
-                </div>
-                <img src={Quran} alt="" className="Quran"/>
-                </div>
-                <span>-5%</span>
+                <span>-54%</span>
                 <p>Книги</p>
                 <img src={Stars} alt="" className="stars"/>
                 <h2>200 000 сум</h2>
             </div>
             <div className="product-preview hi-product">
-            <div className="img-preview">
-                    <div className="img-icons">
+                <div className="img-preview">
+                <div className="img">
+                <img src={Quran} alt="" className="Quran"/></div>
+                <div className="img-icons">
                 <button style={style}><img src={visibility} alt="" className="icon-img"/></button>
                 <button style={style}><img src={star} alt="" className="icon-img"/></button>
                 <button style={style}><img src={trash} alt="" className="icon-img"/></button>
                 </div>
-                <img src={Quran} alt="" className="Quran"/>
                 </div>
+                <span>-54%</span>
                 <p>Книги</p>
                 <img src={Stars} alt="" className="stars"/>
-                <h3>200 000 сум</h3>
+                <h2>200 000 сум</h2>
+            </div>
+            <div className="product-preview hi-product">
+                <div className="img-preview">
+                <div className="img">
+                <img src={Quran} alt="" className="Quran"/></div>
+                <div className="img-icons">
+                <button style={style}><img src={visibility} alt="" className="icon-img"/></button>
+                <button style={style}><img src={star} alt="" className="icon-img"/></button>
+                <button style={style}><img src={trash} alt="" className="icon-img"/></button>
+                </div>
+                </div>
+                <span>-54%</span>
+                <p>Книги</p>
+                <img src={Stars} alt="" className="stars"/>
+                <h2>200 000 сум</h2>
+            </div>
+            <div className="product-preview hi-product">
+                <div className="img-preview">
+                <div className="img">
+                <img src={Quran} alt="" className="Quran"/></div>
+                <div className="img-icons">
+                <button style={style}><img src={visibility} alt="" className="icon-img"/></button>
+                <button style={style}><img src={star} alt="" className="icon-img"/></button>
+                <button style={style}><img src={trash} alt="" className="icon-img"/></button>
+                </div>
+                </div>
+                <span>-54%</span>
+                <p>Книги</p>
+                <img src={Stars} alt="" className="stars"/>
+                <h2>200 000 сум</h2>
             </div>
             </div>
         </div>
