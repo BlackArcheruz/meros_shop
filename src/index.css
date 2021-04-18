@@ -73,8 +73,6 @@ hr{
   outline: none;
   border: none;
   cursor: pointer;
-  display: flex;
-  flex-direction: row;
   align-items: center;
 }
 .btn-primary{
@@ -441,6 +439,9 @@ footer{
 .auth-input:focus{
   border: 1px solid #15CF74;
   transition: ease .3s border;
+}
+.form a{
+  color: #114FEF;
 }
 .inputs h2, .inputs input[type=button]{
   margin: 2% 0;
@@ -1228,6 +1229,22 @@ footer{
   .otziv-modal-content, .cabinet-modal-content{
     width: 80%;
   }
+  .inputs{
+    background-color: #fff;
+    width: 100%;
+  }
+  .auth-input{
+    background-color: #fff;
+  }
+  .order-inputs{
+    flex-direction: column;
+  }
+  .first-order-input{
+    margin-top: 10px;
+  }
+  .order-inputs1{
+    width: 100%;
+  }
 }
 @media (min-width: 481px) and (max-width: 768px) {
   .TopNav, .catalog-button, .search-button, .icons, .LastNav,.small-ad,.left-ad, .right-ad, .greenBox,.redBox,.cabinet-side{
@@ -1322,6 +1339,22 @@ footer{
   .otziv-modal-content, .cabinet-modal-content{
     width: 80%;
   }
+  .inputs{
+    background-color: #fff;
+    width: 100%;
+  }
+  .auth-input{
+    background-color: #fff;
+  }
+  .order-inputs{
+    flex-direction: column;
+  }
+  .first-order-input{
+    margin-top: 10px;
+  }
+  .order-inputs1{
+    width: 100%;
+  }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
   .TopNav, .catalog-button, .icons, .LastNav,.small-ad,.left-ad, .right-ad, .greenBox,.redBox,.cabinet-side{
@@ -1412,6 +1445,12 @@ footer{
     display: flex;
     align-items: center;
     margin-right: 15px;
+  }
+  .first-order-input{
+    margin-top: 10px;
+  }
+  .order-inputs1{
+    width: 100%;
   }
 }
 @media (min-width: 1025px) and (max-width: 1046px) {
