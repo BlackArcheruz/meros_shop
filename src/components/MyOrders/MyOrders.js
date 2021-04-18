@@ -1,5 +1,6 @@
 import React from 'react'
 import TrashOfor from '../Trash/TrashOfor'
+import OrderInputs from './OrderInputs'
 
 const MyOrders = () => {
     return (
@@ -10,6 +11,7 @@ const MyOrders = () => {
             </div>
             <h2 className="h2">Оформление</h2>
             <div className="korzinka">
+                <OrderInputs/>
                 <TrashOfor/>
             </div>
         </div>

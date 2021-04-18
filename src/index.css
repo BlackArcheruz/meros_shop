@@ -1097,6 +1097,31 @@ footer{
 .cabinet-mob a, .cabinet-mob h2, .cabinet-mob h4{
   width: 100%;
 }
+.order-inputs1{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+.first-order-input select, .first-order-input input{
+  margin: 10px 10px 20px 0;
+  background-color: #fff;
+  border: 1px solid #D2D2D2;
+  color: #D2D2D2;
+}
+.first-order-input .auth-input{
+  border: 1px solid #D2D2D2;
+  color: #D2D2D2;
+}
+.first-order-input{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.order-inputs{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
 ::-webkit-scrollbar{
   width: 10px;
 }
