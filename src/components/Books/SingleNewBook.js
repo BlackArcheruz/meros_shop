@@ -1,6 +1,14 @@
 import React, {Fragment, useState} from 'react'
+import visibility from './img/visibility.svg'
+import star from './img/star.svg'
+import trash from './img/trash.svg'
 
 const SingleNewBook = ({product, Stars}) => {
+    const style = {
+        "border": "none",
+        "background": "none",
+        "outline": "none"
+    }
     const [recommends,setRecommends] = useState([
         {
             id: 1,
@@ -43,7 +51,15 @@ const SingleNewBook = ({product, Stars}) => {
             <div className="first-list newbook-single-component">
             {recommends.map((recommend)=>(
                         <div className="product-preview" key={recommend.id}>
-                            <img src={product} alt="" />
+                            <div className="img-preview">
+                                <div className="img">
+                                    <img src={product} alt="" className="Quran"/></div>
+                                <div className="img-icons">
+                                    <button style={style}><img src={visibility} alt="" className="icon-img"/></button>
+                                    <button style={style}><img src={star} alt="" className="icon-img"/></button>
+                                    <button style={style}><img src={trash} alt="" className="icon-img"/></button>
+                                    </div>
+                                </div>
                             <span>{recommend.sale}</span>
                             <p>{recommend.categ}</p>
                             <img src={Stars} alt="" className="stars"/>
