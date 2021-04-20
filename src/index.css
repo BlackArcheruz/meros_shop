@@ -1501,6 +1501,9 @@ footer{
   .img{
     width: 185px;
   }
+  .Quran{
+    width: 185px;
+  }
   .LastNav ul li a{
     font-size: 12px;
   }
@@ -1562,6 +1565,9 @@ footer{
   .img{
     width: 165px;
   }
+  .Quran{
+    width: 165px;
+  }
   .LastNav ul li a{
     font-size: 12px;
   }
@@ -1616,6 +1622,9 @@ footer{
 .img{
   width: 185px;
 }
+.Quran{
+  width: 185px;
+}
 .single-popular{
   padding: 1%;
 }
@@ -1646,6 +1655,9 @@ footer{
   margin: 2%;
 }
 .img{
+  width: 185px;
+}
+.Quran{
   width: 185px;
 }
 .single-popular{

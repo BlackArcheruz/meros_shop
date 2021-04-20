@@ -14,7 +14,7 @@ const ProductLast = ({Hadis, Stars}) => {
             <div className="product-preview product-preview1">
                 <div className="img-preview">
                 <div className="img1">
-                <img src={Hadis} alt="" className="Quran"/></div>
+                <img src={Hadis} alt="" /></div>
                 <div className="img-icons">
                 <button style={style}><img src={visibility} alt="" className="icon-img"/></button>
                 <button style={style}><img src={star} alt="" className="icon-img"/></button>
@@ -29,7 +29,7 @@ const ProductLast = ({Hadis, Stars}) => {
             <div className="product-preview product-preview1">
                 <div className="img-preview">
                 <div className="img1">
-                <img src={Hadis} alt="" className="Quran"/></div>
+                <img src={Hadis} alt="" /></div>
                 <div className="img-icons">
                 <button style={style}><img src={visibility} alt="" className="icon-img"/></button>
                 <button style={style}><img src={star} alt="" className="icon-img"/></button>
@@ -44,7 +44,7 @@ const ProductLast = ({Hadis, Stars}) => {
             <div className="product-preview product-preview1">
                 <div className="img-preview">
                 <div className="img1">
-                <img src={Hadis} alt="" className="Quran"/></div>
+                <img src={Hadis} alt=""/></div>
                 <div className="img-icons">
                 <button style={style}><img src={visibility} alt="" className="icon-img"/></button>
                 <button style={style}><img src={star} alt="" className="icon-img"/></button>
@@ -59,7 +59,7 @@ const ProductLast = ({Hadis, Stars}) => {
             <div className="product-preview product-preview1">
                 <div className="img-preview">
                 <div className="img1">
-                <img src={Hadis} alt="" className="Quran"/></div>
+                <img src={Hadis} alt=""/></div>
                 <div className="img-icons">
                 <button style={style}><img src={visibility} alt="" className="icon-img"/></button>
                 <button style={style}><img src={star} alt="" className="icon-img"/></button>
@@ -76,7 +76,7 @@ const ProductLast = ({Hadis, Stars}) => {
             <div className="product-preview product-preview1">
                 <div className="img-preview">
                 <div className="img1">
-                <img src={Hadis} alt="" className="Quran"/></div>
+                <img src={Hadis} alt=""/></div>
                 <div className="img-icons">
                 <button style={style}><img src={visibility} alt="" className="icon-img"/></button>
                 <button style={style}><img src={star} alt="" className="icon-img"/></button>
@@ -91,7 +91,7 @@ const ProductLast = ({Hadis, Stars}) => {
             <div className="product-preview product-preview1">
                 <div className="img-preview">
                 <div className="img1">
-                <img src={Hadis} alt="" className="Quran"/></div>
+                <img src={Hadis} alt=""/></div>
                 <div className="img-icons">
                 <button style={style}><img src={visibility} alt="" className="icon-img"/></button>
                 <button style={style}><img src={star} alt="" className="icon-img"/></button>
@@ -106,7 +106,7 @@ const ProductLast = ({Hadis, Stars}) => {
             <div className="product-preview product-preview1">
                 <div className="img-preview">
                 <div className="img1">
-                <img src={Hadis} alt="" className="Quran"/></div>
+                <img src={Hadis} alt=""/></div>
                 <div className="img-icons">
                 <button style={style}><img src={visibility} alt="" className="icon-img"/></button>
                 <button style={style}><img src={star} alt="" className="icon-img"/></button>
@@ -121,7 +121,7 @@ const ProductLast = ({Hadis, Stars}) => {
             <div className="product-preview product-preview1">
                 <div className="img-preview">
                 <div className="img1">
-                <img src={Hadis} alt="" className="Quran"/></div>
+                <img src={Hadis} alt=""/></div>
                 <div className="img-icons">
                 <button style={style}><img src={visibility} alt="" className="icon-img"/></button>
                 <button style={style}><img src={star} alt="" className="icon-img"/></button>
