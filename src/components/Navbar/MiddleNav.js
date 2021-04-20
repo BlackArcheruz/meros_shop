@@ -39,6 +39,7 @@ const MiddleNav = () => {
             <div className="icons">
                 <img src={Profile} alt=""/><Link to="/cabinet">Войти</Link> 
                 <img src={Star} alt=""/><Link to="/forward">Избранное</Link> 
+                <div className="count1"><span className="count">1</span></div>
                 <img src={Savat} alt=""/><Link to="/korzina">Корзина</Link> 
             </div>
             </div>

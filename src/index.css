@@ -291,6 +291,9 @@ hr{
   width: 200px;
   height: 200px;
 }
+.img1{
+  object-fit: cover;
+}
 .img-icons{
   display: inline-flex;
   flex-direction: column;
@@ -300,6 +303,10 @@ hr{
   margin: 2% 0;
 }
 .img:hover + .img-icons{
+  opacity: 1;
+  transition: ease .3s opacity;
+}
+.img1:hover + .img-icons{
   opacity: 1;
   transition: ease .3s opacity;
 }
@@ -1125,6 +1132,26 @@ footer{
   flex-direction: row;
   width: 100%;
 }
+.count1{
+  position: relative;
+  bottom: 20px;
+  left: 15px;
+}
+.count{
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: #F5921C;
+  color: #fff;
+  font-family: Roboto;
+  padding: 5px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
 ::-webkit-scrollbar{
   width: 10px;
 }
@@ -1471,7 +1498,7 @@ footer{
   .product-special{
     width: 100%;
   }
-  .Quran{
+  .img{
     width: 185px;
   }
   .LastNav ul li a{
@@ -1532,7 +1559,7 @@ footer{
   .product-special{
     width: 100%;
   }
-  .Quran{
+  .img{
     width: 165px;
   }
   .LastNav ul li a{
@@ -1586,7 +1613,7 @@ footer{
 .product-preview1{
   margin: 2%;
 }
-.Quran{
+.img{
   width: 185px;
 }
 .single-popular{
@@ -1618,7 +1645,7 @@ footer{
 .product-preview1{
   margin: 2%;
 }
-.Quran{
+.img{
   width: 185px;
 }
 .single-popular{
